@@ -15,7 +15,13 @@ This project allows you to add, view, complete, and delete tasks with ease — a
 ---
 
 ## 📂 Project Structure
-
+to_do_list_cli/
+│
+├── main.py # Entry point (menu & user choices)
+├── todo_manager.py # Handles task operations (add, view, complete, delete)
+├── storage.py # Handles JSON file read/write
+├── tasks.json # Stores tasks data
+└── README.md # Project documentation
 
 ---
 
@@ -30,3 +36,4 @@ This project allows you to add, view, complete, and delete tasks with ease — a
 
 Nivedha Selvaraj (nivi2604)
 🚀 Learning Python & building cool projects
+
